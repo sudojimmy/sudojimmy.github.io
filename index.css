@@ -65,7 +65,7 @@ html {
     color: #524545e3;
     border: 0.125rem solid #f3f3f3;
     box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
-    border-radius: 50%;
+    border-radius: 30%;
     transition: 250ms;
     margin: 1rem;
 }
