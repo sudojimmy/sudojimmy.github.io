@@ -45,7 +45,6 @@ html {
     max-height: 3rem;
     display: block;
     margin: 0 auto;
-    fill: currentColor;
 }
 
 .wrapper {
@@ -82,23 +81,27 @@ html {
 .github:hover,
 .github:focus {
     color: #000000;
-    box-shadow: 0 0 24px 0 #000000;
+    box-shadow: 0 0 24px 0 currentColor;
+    fill: currentColor;
 }
 
 .stackoverflow:hover,
 .stackoverflow:focus {
     color: #ef8236;
-    box-shadow: 0 0 24px 0 #ef8236;
+    box-shadow: 0 0 24px 0 currentColor;
+    fill: currentColor;
 }
 
 .linkedin:hover,
 .linkedin:focus {
     color: #0e76a8;
-    box-shadow: 0 0 24px 0 #0e76a8;
+    box-shadow: 0 0 24px 0 currentColor;
+    fill: currentColor;
 }
 
 .gmail:hover,
 .gmail:focus {
     color: #d44638;
-    box-shadow: 0 0 24px 0 #d44638;
+    box-shadow: 0 0 24px 0 currentColor;
+    fill: currentColor;
 }
