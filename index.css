@@ -11,15 +11,27 @@ html {
     box-sizing: inherit;
 }
 
+@keyframes bgchange {
+    0% {
+        background-image: url("bgafter.svg");
+    }
+    50% {
+        background-image: url("bgbefore.svg");
+    }
+    100% {
+        background-image: url("bgafter.svg");
+    }
+}
+
 .bg {
     /* The image used */
-    background-image: url("background.jpg");
+    background-color: #e8e8e8;
+    animation: bgchange 5s infinite;
     /* Full height */
     height: 100%;
     /* Center and scale the image nicely */
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
 }
 
 .circular {
