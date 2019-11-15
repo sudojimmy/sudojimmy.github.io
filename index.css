@@ -66,8 +66,13 @@ html {
     border: 0.125rem solid #f3f3f3;
     box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
     border-radius: 30%;
-    transition: 250ms;
     margin: 1rem;
+}
+
+.share:hover {
+    transition: 250ms;
+    box-shadow: 0 0 24px 0 currentColor;
+    fill: currentColor;
 }
 
 .share:last-child {
@@ -81,27 +86,19 @@ html {
 .github:hover,
 .github:focus {
     color: #000000;
-    box-shadow: 0 0 24px 0 currentColor;
-    fill: currentColor;
 }
 
 .stackoverflow:hover,
 .stackoverflow:focus {
     color: #ef8236;
-    box-shadow: 0 0 24px 0 currentColor;
-    fill: currentColor;
 }
 
 .linkedin:hover,
 .linkedin:focus {
     color: #0e76a8;
-    box-shadow: 0 0 24px 0 currentColor;
-    fill: currentColor;
 }
 
 .gmail:hover,
 .gmail:focus {
     color: #d44638;
-    box-shadow: 0 0 24px 0 currentColor;
-    fill: currentColor;
 }
